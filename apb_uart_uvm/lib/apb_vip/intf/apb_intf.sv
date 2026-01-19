@@ -8,7 +8,7 @@ interface apb_intf;
     logic        penable;
     logic        pwrite;
     logic [11:0] paddr;
-    logic [3:0]  psrtb;
+    logic [3:0]  pstrb;
     logic [31:0] pwdata;
 
     modport driver_mp (
